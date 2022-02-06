@@ -29,7 +29,5 @@ public class Main {
         System.out.println(max.get().getName() + " Tjänar mest " + max.get().getSalary());
         Optional<Person> min = personList.stream().min(Comparator.comparing(Person::getSalary));
         System.out.println(min.get().getName() + " Tjänar minst " + min.get().getSalary());
-
     }
-
 }
