@@ -1,0 +1,28 @@
+package labb.upg.ett;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Person {
+    private String name;
+    private String gender;
+    private double salary;
+
+    public Person(String name, String gender, double salary) {
+        this.name = name;
+        this.gender = gender;
+        this.salary = salary;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+}
